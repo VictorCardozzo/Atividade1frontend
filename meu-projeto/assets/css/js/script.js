@@ -22,3 +22,9 @@ document.addEventListener("input", (e) => {
       .replace(/(\d{5})(\d)/, "$1-$2");
   }
 });
+const menuToggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('nav');
+
+menuToggle.addEventListener('click', () => {
+  nav.classList.toggle('active');
+});

@@ -29,6 +29,33 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Banner Principal */
+.banner-principal {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e0f2f1;
+}
+
+.banner-principal img {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+.banner-principal h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #00695c;
+}
+
+.banner-principal p {
+  font-size: 1.2rem;
+  color: #004d40;
+}
+
 /* Seção de Ações Sociais */
 .acao-social {
   display: flex;
@@ -89,11 +116,40 @@ footer {
   }
 
   .acao-social img {
-    width: 100%;
+    width: 200%;
     max-width: 300px;
   }
 
   .acao-social .texto {
     max-width: 90%;
   }
+
+  .banner-principal h1 {
+    font-size: 2rem;
+  }
+
+  .banner-principal p {
+    font-size: 1rem;
+  }
+}
+
+.form-cadastro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.form-cadastro input {
+  flex: 1 1 45%;
+  min-width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-cadastro button {
+  flex-basis: 100%;
+  align-self: center;
 }
